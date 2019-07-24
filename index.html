@@ -43,10 +43,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4 item" data-aos="fade-up"><img class="img-fluid" src="assets/img/closure%20vinyl%20cover.png">
-                    <h3 class="name">Nardon - it's time for closure</h3>
+                <div class="col-sm-6 col-lg-4 item" data-aos="fade-up"data-aos-delay="50"><img class="img-fluid" src="assets/img/closure%20vinyl%20cover.png">
+                    <h3 class="name">Nardon - it's time for closure (EP) </h3>
                     <div class="d-flex justify-content-center align-items-xl-center" style="margin: 15px;">
-                        <audio style="display: none ; outline:none" id="player4"controls src="./assets/music/fg.mp3"> Your Browser Does not Support Audio Playback </audio>
+                        <audio style="display: none ; outline:none" id="player4"controls src="./assets/music/itfcg.mp3"> Your Browser Does not Support Audio Playback </audio>
                         <a onclick="play4()">
                             <i id="play4" class="fa fa-play" style="font-size: 25px;margin: 0px 10px;"></i>
                         </a>
@@ -106,14 +106,14 @@
             <!-- End: Intro -->
             <!-- Start: People -->
             <div class="row people">
-                <div class="col-md-6 col-lg-4 item" data-aos="fade-up"><i class="fa fa-spotify" style="font-size: 100px;"></i>
+                <div onclick="getInfo('https://open.spotify.com/artist/3HTDzfjpdNhV1rhHHiDQZD')" class="col-md-6 col-lg-4 item" data-aos="fade-up"><i class="fa fa-spotify" style="font-size: 100px;cursor: pointer"></i>
                     <h3 class="name">Spotify</h3>
                 </div>
-                <div class="col-md-6 col-lg-4 item" data-aos="fade-up" data-aos-delay="50"><i class="fa fa-soundcloud" style="font-size: 100px;"></i>
+                <div onclick="getInfo('https://soundcloud.com/djnardon')" class="col-md-6 col-lg-4 item" data-aos="fade-up" data-aos-delay="50"><i class="fa fa-soundcloud" style="font-size: 100px;cursor: pointer"></i>
                     <h3 class="name">SoundCloud</h3>
                 </div>
-                <div class="col-md-6 col-lg-4 item" data-aos="fade-up" data-aos-delay="150"><i class="fa fa-apple" style="font-size: 100px;"></i>
-                    <h3 class="name">Apple Music</h3>
+                <div onclick="getInfo('https://itunes.apple.com/ca/artist/nardon/id1356849301')" class="col-md-6 col-lg-4 item" data-aos="fade-up" data-aos-delay="150"><i class="fa fa-apple" style="font-size: 100px; cursor: pointer;"></i>
+                    <h3  class="name">Apple Music</h3>
                 </div>
             </div>
             <!-- End: People -->
@@ -126,7 +126,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Start: Social Icons -->
-                    <div class="col item social"><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                    <div class="col item social"><a href="https://www.instagram.com/lucasleifheit/"><i class="icon ion-social-instagram"></i></a></div>
                     <!-- End: Social Icons -->
                 </div>
                 <!-- Start: Copyright -->

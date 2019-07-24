@@ -68,3 +68,8 @@ function play5 (){
         document.getElementById('play5').style.display = 'none';
     }
 }
+
+function getInfo(url){
+    var win = window.open(url, '_blank');
+    win.focus();
+}
